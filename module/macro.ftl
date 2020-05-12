@@ -10,7 +10,7 @@
 
         <@global.head />
 
-        <link rel="stylesheet" href="${theme_base!}/assets/styles/main.min.css?ver=${.now?long}">
+        <link rel="stylesheet" href="//halo.cdn.sherlocky.com/themes/hshan/assets/styles/main.min.css?ver=${.now?long}">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" type='text/css' media='all'/>
 
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/viewerjs@1.5.0/dist/viewer.min.css">
@@ -184,7 +184,7 @@
     <#include "footer.ftl">
     </body>
     <script src="//cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <script src="${theme_base!}/assets/media/scripts/utils.min.js?ver=${.now?long}"></script>
+    <script src="//halo.cdn.sherlocky.com/themes/hshan/assets/media/scripts/utils.min.js?ver=${.now?long}"></script>
     <#include "script.ftl">
     </html>
 </#macro>

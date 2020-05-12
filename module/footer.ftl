@@ -60,7 +60,7 @@
                 <a href="http://beian.miit.gov.cn" target="_blank">${settings.Icp!}</a><br>
             </#if>
             <#if settings.PublicSecurityRecord??>
-                <div style="display: inline-block;background-image: url(${theme_base!}/assets/images/beian.png);background-repeat: no-repeat;background-position: top left;background-size: contain;padding-left: 20px;">
+                <div style="display: inline-block;background-image: url(//halo.cdn.sherlocky.com/themes/hshan/assets/images/beian.png);background-repeat: no-repeat;background-position: top left;background-size: contain;padding-left: 20px;">
                     <a href="http://www.beian.gov.cn" target="_blank">${settings.PublicSecurityRecord!}</a>
                 </div><br>
             </#if>

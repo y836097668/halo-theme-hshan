@@ -25,7 +25,8 @@
                         <@tagTag method="list">
                             <#if tags?? && tags?size gt 0>
                                 <#list tags as tag>
-                                    <a href="${tag.fullPath!}" data-ajax class="button">
+                                    <a href="${tag.fullPath!}" data-ajax class="button"
+                                       style="font-size:<#if tag.name?length gt 7> ${tag.postCount+(tag.name?length)}<#else>${tag.postCount+(tag.name?length)*2}</#if>px">
                                         ${tag.name}
                                         <span aria-hidden="true">
                                             <span class="line left"></span>

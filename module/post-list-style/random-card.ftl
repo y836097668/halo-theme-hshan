@@ -21,7 +21,7 @@
                                     <#elseif settings.card_random_cover!false>
                                         <a data-ajax href="${post.fullPath!}" class="thumb hover-effect">
                                                  <span class="fullimage cover" role="img" aria-label=""
-                                                       style="background-image: url(${theme_base!}/thumbnails/thumbnail-${randomMethod(0,10)}.png);"></span>
+                                                       style="background-image: url(//halo.cdn.sherlocky.com/themes/hshan/thumbnails/thumbnail-${randomMethod(0,10)}.png);"></span>
                                             </a>
                                     <#else>
                                         <a data-ajax href="${post.fullPath!}" class="thumb hover-effect">
