@@ -23,7 +23,7 @@
                                             <#assign x = "${settings.card_random_cover_img_num?number}" />
                                             <#assign thumbnailIndex ="${post_index % (x?number)}"/>
                                                  <span class="fullimage cover" role="img" aria-label=""
-                                                       style="background-image: url(${blog_url!}/thumbnail/thumbnail-${thumbnailIndex?number?abs}.${settings.card_random_cover_img_suffix});"></span>
+                                                       style="background-image: url(//halo.cdn.sherlocky.com/thumbnail/thumbnail-${thumbnailIndex?number?abs}.${settings.card_random_cover_img_suffix});"></span>
                                             </a>
                                     <#else>
                                         <a data-ajax href="${post.fullPath!}" class="thumb hover-effect">
