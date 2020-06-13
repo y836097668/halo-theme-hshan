@@ -1,7 +1,7 @@
 <#include "module/macro.ftl">
 <@layout title="${post.title!options.blog_title}">
 
-    <div id="page" class="site post-template">
+    <div id="page" class="site post-template transform-none">
         <main class="site-main" id="main">
             <div id="readProgress">
                 <div class="read-progress-bar" role="progressbar" style="width: 0"></div>
